@@ -1,3 +1,4 @@
-def tinh_thue_thu_nhap(thu_nhap):
-    thu_nhap_tinh_thue= thu_nhap - 4000000
-    return max(0, thu_nhap_tinh_thue * 0.1)
+def tinh_diem_gpa(diem_so):
+    return 0.0
+
+print("Điểm GPA hệ 4 là:", tinh_diem_gpa(8.5))
